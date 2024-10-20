@@ -1,0 +1,169 @@
+.img{
+    background-image:url("IOTS1.jpg") ;
+  
+}
+.cour{
+    display:flex;
+
+}
+.TXT{
+    color: antiquewhite;
+    text-align: center;
+}
+.a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.card{
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 50px;
+    background-color: rgb(0, 0, 163);
+    flex: 1;
+    transition: .3s all ease;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    text-emphasis-color: white;
+    
+
+}
+.card:hover{
+    flex: 2;
+    background-color: rgb(153, 0, 255);
+}
+body{
+    padding: 10px;
+    background-image: linear-gradient(white,#f7f3dc);
+    background-image: url('IOTS1.jpg');
+}
+
+.countainer {
+    width: 100;
+    height: 100vh;
+    margin-bottom: 30px;
+}
+#toggle{
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%; -50%);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 30px;
+    width: 75px;
+    background-color: #000;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+}
+#toggle::after{
+    content: "";
+    position: absolute;
+    height: 15px;
+    width: 30px;
+    background-color: #ffffff;
+    top: 5px;
+    left: 7px;
+    border-radius: 50px;
+}
+p{
+    font-family: monospace;
+    margin-top: 250px;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.dark-theme{
+    background-image: linear-gradient(rgb(231, 228, 228),rgb(131, 131, 223));
+    background-image: url('PDS1.webp');
+    background-repeat: repeat;
+    background-size: 100vw;
+    color: #e5e5e5
+}
+.dark-theme #toggle {
+    background-color: #fff;
+}
+.dark-theme #toggle:after {
+    background-color: black;
+    left: 40px;
+
+}
+.php{
+    position: fixed;
+    width: 250px;
+    height: auto;
+    background-color: #e5e5e5;
+    color: darkblue;
+    border-radius: 20px;
+    text-align: center;
+    left: 300px;
+    margin-top: 145px;
+}
+.php:hover{
+    background-color: #040192;
+    color: rgb(255, 255, 255);
+
+}
+.php1{
+    position: fixed;
+    width: 250px;
+    height: auto;
+    background-color: #e5e5e5;
+    color: darkblue;
+    border-radius: 20px;
+    text-align: center;
+    left:500px;
+    margin-top: 345px;
+}
+.php1:hover{
+    background-color: #040192;
+    color: rgb(255, 255, 255);
+}
+.php2{
+    position: fixed;
+    width: 250px;
+    height: auto;
+    background-color: #e5e5e5;
+    color: darkblue;
+    border-radius: 20px;
+    text-align: center;
+    left:700px;
+    margin-top: 145px;
+}
+.php2:hover{
+    background-color: #040192;
+    color: rgb(255, 255, 255);
+}
+.php3{
+    position: fixed;
+    width: 250px;
+    height: auto;
+    background-color: #e5e5e5;
+    color: darkblue;
+    border-radius: 20px;
+    text-align: center;
+    left:900px;
+    margin-top: 345px;
+}
+.php3:hover{
+    background-color: #040192;
+    color: rgb(255, 255, 255);
+}
+.php4{
+    position: fixed;
+    width: 250px;
+    height: auto;
+    background-color: #e5e5e5;
+    color: darkblue;
+    border-radius: 20px;
+    text-align: center;
+    left:1100px;
+    margin-top: 145px;
+}
+.php4:hover{
+    background-color: #040192;
+    color: rgb(255, 255, 255);
+}
